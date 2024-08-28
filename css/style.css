@@ -1,0 +1,39 @@
+body {
+    background-color: #a3b7ca;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #194a7a;
+}
+
+p {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#txt01 {
+    color: #476f95;
+    text-align: right;
+}
+
+#txt02 {
+    color: #22016d;
+    text-transform: uppercase;
+}
+
+#imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+img {
+    height: 320px;
+    width: 320px;
+    border-radius: 320px;
+    margin: 10px;
+    margin-top: 20px;
+}
